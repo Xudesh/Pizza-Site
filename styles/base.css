@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #121617;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+header .container .logo {
+  align-items: center;
+  display: flex;
+  gap: 9px;
+}
+header .container .logo img {
+  width: 24px;
+  height: 24px;
+}
+header .container .logo a {
+  color: #FFF;
+}
+header .container .left-header {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+header .container .left-header i {
+  font-size: 25px;
+  color: #FFF;
+  display: none;
+}
+header .container .left-header .menu {
+  display: flex;
+  gap: 48px;
+}
+header .container .left-header .menu li a {
+  color: #FFF;
+}
+header .container .left-header .btn {
+  color: #FFF;
+  padding: 9px 24px;
+  border-radius: 24px;
+  background-color: #F4511F;
+  border: 1px solid #F4511F;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.bottom-header .items {
+  display: flex;
+  justify-content: center;
+  gap: 78px;
+  margin-top: 61px;
+  color: #FFF;
+}
+.bottom-header .items .left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.bottom-header .items .left-side .left-side-flex p {
+  display: flex;
+  margin-left: 90px;
+}
+.bottom-header .items .left-side .square {
+  width: 8px;
+  height: 8px;
+  background-color: #FFF;
+  margin-left: 185px;
+}
+.bottom-header .items .right-side h2 {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.bottom-header .items .right-side h1 {
+  font-size: 64px;
+  font-weight: 400;
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+.bottom-header .items .right-side p {
+  color: #DAD8D7;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 10px 0 42px 0;
+}
+.bottom-header .items .right-side .btn {
+  color: #FFF;
+  padding: 17px 28px;
+  border-radius: 8px;
+  background-color: #F4511F;
+  border: 1px solid #F4511F;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.bottom-header .scrolls {
+  display: flex;
+  gap: 16px;
+  margin-top: 80px;
+  justify-content: center;
+}
+.bottom-header .scrolls .full-scroll {
+  width: 24px;
+  height: 5px;
+  border-radius: 8px;
+  background: #FFF;
+}
+.bottom-header .scrolls .scroll {
+  width: 5px;
+  height: 5px;
+  background: #FFF;
+}
+
+.second-section {
+  margin-top: 120px;
+}
+.second-section h1 {
+  color: #FFF;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 90px;
+}
+.second-section .carts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 125px;
+}
+.second-section .carts .cart {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.second-section .carts .cart p {
+  color: #DAD8D7;
+  font-size: 16px;
+  font-weight: 400;
+}
+.second-section .carts .cart h3 {
+  color: #FFF;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 20px 0 4px 0;
+}
+
+.about_us .pizza_and_some_text {
+  display: flex;
+  color: #FFF;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+}
+.about_us .pizza_and_some_text .some_text {
+  margin-top: 169px;
+}
+.about_us .pizza_and_some_text .some_text h1 {
+  margin-bottom: 48px;
+  font-size: 36px;
+  font-weight: 400;
+}
+.about_us .pizza_and_some_text .some_text p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #DAD8D7;
+  margin-bottom: 35px;
+}
+.about_us .pizza_and_some_text .some_text .btn {
+  padding: 17px 28px;
+  border-radius: 8px;
+  background: #F4511F;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+}
+.about_us .pizza_and_some_text .pizza {
+  margin-top: 110px;
+}
+
+.restaurant-menu {
+  margin-top: 160px;
+}
+.restaurant-menu h1 {
+  text-align: center;
+  color: #FFF;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 72px;
+}
+.restaurant-menu .food-cart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 94px 55px;
+}
+.restaurant-menu .food-cart .foods {
+  text-align: center;
+}
+.restaurant-menu .food-cart .foods .images-food {
+  text-align: center;
+}
+.restaurant-menu .food-cart .foods h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #FFF;
+}
+.restaurant-menu .food-cart .foods p {
+  color: #DAD8D7;
+  margin: 1px 0 8px 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+.restaurant-menu .food-cart .foods span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFF;
+}
+.restaurant-menu .food-cart .basket {
+  align-items: flex-end;
+  display: flex;
+}
+.restaurant-menu .food-cart .basket img {
+  min-width: 24px;
+  min-height: 24px;
+  border-radius: 4px 4px 12px 4px;
+  background: #F4511F;
+  padding: 4px 9px 3px 4px;
+}
+
+.discount {
+  color: #FFF;
+  margin-bottom: 40px;
+}
+.discount .discount-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.discount .discount-flex .discount-img {
+  margin-top: 236px;
+}
+.discount .discount-flex .discount-text {
+  margin-top: 306px;
+  text-align: center;
+}
+.discount .discount-flex .discount-text p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+.discount .discount-flex .discount-text .btn {
+  margin-top: 30px;
+  padding: 17px 28px;
+  color: #FFF;
+  background: #F4511F;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #121518;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FAFAFA;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 1076px) {
+  .bottom-header .items .right-side h1 {
+    font-size: 40px;
+  }
+  .bottom-header .items .right-side p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 904px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  header .container .left-header .menu {
+    display: none;
+  }
+  header .container .left-header i {
+    display: block;
+  }
+  .bottom-header .items {
+    gap: 30px;
+  }
+  .bottom-header .left-side img {
+    max-width: 370px;
+    max-height: 390px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .bottom-header .left-side img {
+    width: 260px;
+    height: 240px;
+  }
+  .bottom-header .right-side h1 {
+    font-size: 26px;
+  }
+  .bottom-header .right-side .btn {
+    padding: 12px 20px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .about_us .pizza_and_some_text .pizza img {
+    width: 325px;
+    height: 290px;
+  }
+  .discount .discount-flex .discount-img {
+    margin-top: 190px;
+  }
+  .discount .discount-flex .discount-img img {
+    width: 240px;
+    height: 236px;
+  }
+  .discount .discount-flex .discount-text {
+    margin-top: 230px;
+  }
+  .restaurant-menu h1 {
+    font-size: 32px;
+  }
+  .restaurant-menu .food-cart {
+    gap: 85px 40px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .bottom-header .items {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .bottom-header .items .left-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .bottom-header .items .left-side .left-side-flex {
+    display: none;
+  }
+  .bottom-header .items .left-side p {
+    display: none;
+  }
+  .bottom-header .items .right-side {
+    text-align: center;
+  }
+  .about_us .pizza_and_some_text {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .about_us .pizza_and_some_text .some_text {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .about_us .pizza_and_some_text .pizza {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .about_us .pizza_and_some_text .pizza img {
+    width: 310px;
+    height: 280px;
+  }
+  .discount .discount-flex .discount-text {
+    margin-top: 220px;
+  }
+  .discount .discount-flex .discount-text p {
+    font-size: 20px;
+  }
+  .discount .discount-flex .discount-text .btn {
+    padding: 12px 22px;
+  }
+  .discount .discount-flex .discount-img img {
+    width: 190px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 400px) {
+  header .left-header .btn {
+    display: none;
+  }
+}/*# sourceMappingURL=base.css.map */

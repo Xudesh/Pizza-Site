@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'vars';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: $background;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    .logo{
+        align-items: center;
+        display: flex;
+        gap: 9px;
+
+        img{
+            width: 24px;
+            height: 24px;
+        }
+
+        a{
+            color: #FFF;
+        }
+    }
+
+    .left-header{
+        display: flex;
+        gap: 48px;
+        align-items: center;
+
+
+        i{
+            font-size: 25px;
+            color: #FFF;
+            display: none;
+        }
+
+        .menu{
+            display: flex;
+            gap: 48px;
+            
+            li a{
+                color: #FFF;
+            }
+        }
+
+        .btn{
+            color: #FFF;
+            padding: 9px 24px;
+            border-radius: 24px;
+            background-color: $orange-color;
+            border: 1px solid $orange-color;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    }   
+}
+
+
+.bottom-header{
+    .items{
+        display: flex;
+        justify-content: center;
+        gap: 78px;
+        margin-top: 61px;
+        color: #FFF;
+
+        .left-side{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            .left-side-flex p{
+                display: flex;
+
+                margin-left: 90px;
+            }
+
+            .square{
+                    width: 8px;
+                    height: 8px;
+                    background-color: #FFF;
+                    margin-left: 185px;
+                }
+            
+        }
+
+        .right-side{
+            h2{
+                font-size: 20px;
+                font-weight: 400;
+                text-transform: uppercase;
+            }
+
+            h1{
+                font-size: 64px;
+                font-weight: 400;
+                margin-bottom: 1px;
+                margin-top: 1px;
+            }
+
+            p{
+                color: $footer-color;
+                font-size: 1rem;
+                font-weight: 400;
+                margin: 10px 0 42px 0;
+            }
+
+            .btn{
+                color: #FFF;
+                padding: 17px 28px;
+                border-radius: 8px;
+                background-color: $orange-color;
+                border: 1px solid $orange-color;
+                cursor: pointer;
+                font-size: 1rem;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .scrolls{
+        display: flex;
+        gap: 16px;
+        margin-top: 80px;
+        justify-content: center;
+
+        .full-scroll{
+            width: 24px;
+            height: 5px;
+            border-radius: 8px;
+            background: #FFF;
+        }
+
+        .scroll{
+            width: 5px;
+            height: 5px;
+            background: #FFF;
+        }
+    }
+}
+
+
+.second-section{
+    margin-top: 120px;
+    
+    h1{
+        color: #FFF;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 400;
+        margin-bottom: 90px;
+    }
+
+    .carts{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 125px;
+
+        .cart{
+
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            p{
+                color: $footer-color;
+                font-size: 16px;
+                font-weight: 400;
+            }
+
+            h3{
+                color: #FFF;
+                font-size: 19px;
+                font-weight: 400;
+                margin: 20px 0 4px 0;
+            }
+
+        }
+    }
+}
+
+
+.about_us .pizza_and_some_text{
+    display: flex;
+    color: #FFF;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+
+    .some_text{
+        margin-top: 169px;
+        
+        h1{
+            margin-bottom: 48px;
+            font-size: 36px;
+            font-weight: 400;
+        }
+
+        p{
+            font-size: 1rem;
+            font-weight: 400;
+            color: $footer-color;
+            margin-bottom: 35px;
+        }
+
+        .btn{
+            padding: 17px 28px;
+            border-radius: 8px;
+            background: $orange-color;
+            color: #FFF;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+
+    .pizza{
+        margin-top: 110px;
+    }
+}
+
+
+
+.restaurant-menu{
+    margin-top: 160px;
+
+    h1{
+        text-align: center;
+        color: #FFF;
+        font-size: 36px;
+        font-weight: 400;
+        margin-bottom: 72px;
+    }
+
+    .food-cart{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 94px 55px;
+
+        .foods{
+            text-align: center;
+
+            .images-food{
+                text-align: center;
+            }
+
+            h2{
+                font-size: 20px;
+                font-weight: 400;
+                color: #FFF;
+            }
+
+            p{
+                color: $footer-color;
+                margin: 1px 0 8px 0;
+                font-size: 12px;
+                font-weight: 400;
+            }
+
+            span{
+                font-size: 16px;
+                font-weight: 400;
+                color: #FFF;
+            }
+        }
+
+        .basket{
+            align-items: flex-end;
+            display: flex;
+
+
+            img{
+                min-width: 24px;
+                min-height: 24px;
+                border-radius: 4px 4px 12px 4px;
+                background: $orange-color;
+                padding: 4px 9px 3px 4px;
+            }
+        }
+    }
+}
+
+
+.discount{
+    color: #FFF;
+    margin-bottom: 40px;
+
+    .discount-flex{
+        display: flex;
+        justify-content: space-evenly;
+
+        .discount-img{
+            margin-top: 236px;
+        }
+
+        .discount-text{
+            margin-top: 306px;
+            text-align: center;
+
+            p{
+                text-align: center;
+                font-size: 24px;
+                font-weight: 400;
+                
+            }
+
+            .btn{
+                margin-top: 30px;
+                padding: 17px 28px;
+                color: #FFF;
+                background: $orange-color;
+                border-radius: 8px;
+                font-size: 1rem;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #121518;
+}
+
+
+::-webkit-scrollbar-thumb{
+    background-color: #FAFAFA;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1076px) {
+    .bottom-header{
+        .items{
+            .right-side{
+                
+                h1{
+                    font-size: 40px;
+                }
+
+                p{
+                    font-size: 12px;
+                    
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 904px) {
+
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    header .container{
+        .left-header{
+            .menu{
+                display: none;
+            }
+
+            i{
+                display: block;
+            }
+        }
+
+    }
+
+    .bottom-header{
+        .items{
+            gap: 30px;
+        }
+        .left-side{
+            img{
+                max-width: 370px;
+                max-height: 390px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 770px) {
+    .bottom-header .left-side img{
+        width: 260px;
+        height: 240px;
+    }
+
+    .bottom-header .right-side{
+
+
+        h1{
+            font-size: 26px;
+    
+    
+        }
+
+        .btn{
+            padding: 12px 20px;
+            font-size: 14px;
+            text-align: center;
+        }
+    } 
+
+    .about_us .pizza_and_some_text .pizza img{
+        width: 325px;
+        height: 290px;
+    }
+
+    .discount .discount-flex{
+
+
+        .discount-img {
+            margin-top: 190px;
+
+            img{
+                width: 240px;
+                height: 236px;
+            }
+        }
+
+        .discount-text{
+            margin-top: 230px;
+        }
+
+
+    }
+
+    .restaurant-menu{
+        h1{
+            font-size: 32px;
+        }
+
+        .food-cart{
+            gap: 85px 40px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 590px) {
+    .bottom-header {
+        .items{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            .left-side{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+
+                
+                .left-side-flex{
+                    display: none;
+                }
+                p{
+                    display: none;
+                }
+            }
+
+            .right-side{
+                text-align: center;
+            }
+        }
+    }
+
+
+    .about_us .pizza_and_some_text{
+        display: flex;
+        flex-direction: column-reverse;
+
+        .some_text{
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .pizza{
+            display: flex;
+            justify-content: flex-end;
+
+            img{
+                width: 310px;
+                height: 280px;
+            }
+        }
+    }
+
+
+    .discount .discount-flex{
+        .discount-text{
+            margin-top: 220px;
+            p{
+                font-size: 20px;
+            }
+
+            .btn{
+                padding: 12px 22px;
+            }
+        }
+
+        .discount-img{
+            img{
+                width: 190px;
+                height: 200px;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 400px) {
+    header{
+        .left-header{
+            .btn{
+                display: none;
+            }
+        }
+    }
+}
